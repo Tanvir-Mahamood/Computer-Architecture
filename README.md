@@ -10,6 +10,11 @@ Here all the `.circ` files created in `Logisim Evolution` are available. All the
 | 5 | SRAM 4X2 | [SRAM_4X2.circ](https://github.com/Tanvir-Mahamood/Computer-Architecture/blob/main/SRAM_4X2.circ) | xxx |
 
 ## Software to be installed:
-Install Logisim-evolution version 3.8.0 using [link](https://github.com/logisim-evolution/logisim-evolution/releases). <br>
+- Install **Logisim-evolution** version 3.8.0 using [link](https://github.com/logisim-evolution/logisim-evolution/releases). <br>
 Logisim-evolution is a Java application; therefore, it can run on any operating system supporting the Java runtime environment. 
 It requires Java 16 (or newer). If JAVA is not installed, install using [link](https://www.oracle.com/java/technologies/downloads/)
+> [!NOTE]
+>  For Intel Laptop with Windows OS should install logisim-evolution-3.8.0-x86.msi file
+- Install **Keil uVision IDE** using [link](https://www.keil.com/demo/eval/arm.htm). <br> Installation [Tutorial](https://www.youtube.com/watch?v=buQtJjgw2pE) .<br>
+uVision Project [Tutorial](https://www.labs.cs.uregina.ca/301/ARM/lecture.php)
+- Download and Install Verilog. Follow this [link](https://github.com/Tanvir-Mahamood/Circuit-Design/blob/main/README.md#Verilog)
