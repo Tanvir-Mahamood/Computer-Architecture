@@ -5,9 +5,11 @@ Here all the `.circ` files created in `Logisim Evolution` are available. All the
 |---|---|---|---|
 | 1 | Complete 4-bit ALU | [ALU_4BIT.circ](https://github.com/Tanvir-Mahamood/Computer-Architecture/blob/main/ALU_4BIT.circ) | ![alt text](https://github.com/Tanvir-Mahamood/Computer-Architecture/blob/main/Architecture/ALU/alu.jpg) |
 | 2 | CPU Practice 1 | [CPU_prac1.circ](https://github.com/Tanvir-Mahamood/Computer-Architecture/blob/main/CPU_prac1.circ) | ![alt text](https://github.com/Tanvir-Mahamood/Computer-Architecture/blob/main/Architecture/cpu1/cpu1.jpg) |
-| 3 | CPU Practice 1 | [CPU_prac2.circ](https://github.com/Tanvir-Mahamood/Computer-Architecture/blob/main/CPU_prac2.circ) | ![alt text](https://github.com/Tanvir-Mahamood/Computer-Architecture/blob/main/Architecture/cpu2/cpu2.jpg) |
-| 4 | Register Set 8X4 | [RegisterSet_8X4.circ](https://github.com/Tanvir-Mahamood/Computer-Architecture/blob/main/RegisterSet_8X4.circ) | ![alt text]() |
-| 5 | SRAM 4X2 | [SRAM_4X2.circ](https://github.com/Tanvir-Mahamood/Computer-Architecture/blob/main/SRAM_4X2.circ) | ![alt text]() |
+| 3 | CPU Practice 2 | [CPU_prac2.circ](https://github.com/Tanvir-Mahamood/Computer-Architecture/blob/main/CPU_prac2.circ) | ![alt text](https://github.com/Tanvir-Mahamood/Computer-Architecture/blob/main/Architecture/cpu2/cpu2.jpg) |
+| 4 | Register Set 8X4 | [RegisterSet_8X4.circ](https://github.com/Tanvir-Mahamood/Computer-Architecture/blob/main/RegisterSet_8X4.circ) | ![alt text](https://github.com/Tanvir-Mahamood/Computer-Architecture/blob/main/Architecture/rf8X4.jpg) |
+| 5 | SRAM 4X2 | [SRAM_4X2.circ](https://github.com/Tanvir-Mahamood/Computer-Architecture/blob/main/SRAM_4X2.circ) | ![alt text](https://github.com/Tanvir-Mahamood/Computer-Architecture/blob/main/Architecture/sram4X2.jpg) |
+
+[CPU Question](https://docs.google.com/document/d/1QAxX_nC_oK-EPebPyeNBcyt8JHZ8gJWBkOBG93cyLCc/edit?usp=sharing)
 
 ## Software to be installed:
 - Install **Logisim-evolution** version 3.8.0 using [link](https://github.com/logisim-evolution/logisim-evolution/releases). <br>
