@@ -1,0 +1,39 @@
+;;; Directives
+ PRESERVE8
+ THUMB 
+; Vector Table Mapped to Address 0 at Reset
+; Linker requires __Vectors to be exported
+ AREA RESET, DATA, READONLY
+ EXPORT __Vectors
+__Vectors 
+ DCD 0x20001000 
+ ; stack pointer value when stack is empty
+ DCD Reset_Handler ; reset vector
+ ALIGN
+; The program
+; Linker requires Reset_Handler
+ AREA MYCODE, CODE, READONLY
+ ENTRY
+ EXPORT Reset_Handler
+Reset_Handler
+;;;;;;;;;;User Code Starts from the next line;;;;;;;;;;;;
+
+ ; IF(I == J) F = G+H
+ ; ELSE F=F-I
+ ; R0=F, R1=G, R2=H, R3=I, R4=J
+ 
+ MOV R3, #2
+ MOV R4, #2
+ 
+ MOV R0, #0
+ MOV R1, #3
+ MOV R2, #4
+ 
+ CMP R3, R4
+ BNE L1
+ ADD R0, R1, R2
+L1
+ SUB R0, R0, R3
+ 
+ 
+ END ;End of the program

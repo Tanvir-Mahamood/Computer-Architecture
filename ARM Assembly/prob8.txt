@@ -1,0 +1,30 @@
+;;; Directives
+ PRESERVE8
+ THUMB 
+; Vector Table Mapped to Address 0 at Reset
+; Linker requires __Vectors to be exported
+ AREA RESET, DATA, READONLY
+ EXPORT __Vectors
+__Vectors 
+ DCD 0x20001000 
+ ; stack pointer value when stack is empty
+ DCD Reset_Handler ; reset vector
+ ALIGN
+; The program
+; Linker requires Reset_Handler
+ AREA MYCODE, CODE, READONLY
+ ENTRY
+ EXPORT Reset_Handler
+Reset_Handler
+;;;;;;;;;;User Code Starts from the next line;;;;;;;;;;;;
+
+ MOV R0, #0x20000000
+ MOV R1, #2
+ STR R1, [R0]
+ 
+ LDR R1, [R0]
+ LSL R1, R1, #3
+ STR R1, [R0, #4]
+ 
+ 
+ END ;End of the program
