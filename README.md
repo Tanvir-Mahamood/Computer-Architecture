@@ -1,5 +1,7 @@
 # Computer Architecture
-My practiced [HDL Codes](https://github.com/Tanvir-Mahamood/Circuit-Design/tree/main/Verilog) .<br><br>
+My practiced [HDL Codes](https://github.com/Tanvir-Mahamood/Circuit-Design/tree/main/Verilog) 
+and [.circ files](https://github.com/Tanvir-Mahamood/Circuit-Design/tree/main/Logisim%20Evoluation)<br><br>
+
 Here all the `.circ` files created in `Logisim Evolution` are available. All the circuits are designed from scratch.<br>
 ## Design:
 | SI | Name | File | Preview |
