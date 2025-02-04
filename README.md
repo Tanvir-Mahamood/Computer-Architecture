@@ -22,4 +22,4 @@ It requires Java 16 (or newer). If JAVA is not installed, install using [link](h
 >  For Intel Laptop with Windows OS should install logisim-evolution-3.8.0-x86.msi file
 - Install **Keil uVision IDE** using [link](https://www.keil.com/demo/eval/arm.htm) for ARM Assembly. <br> Installation [Tutorial](https://www.youtube.com/watch?v=buQtJjgw2pE) .<br>
 uVision Project [Tutorial](https://www.labs.cs.uregina.ca/301/ARM/lecture.php)
-- Download and Install Verilog. Follow this [link](https://github.com/Tanvir-Mahamood/Circuit-Design/blob/main/README.md#Verilog)
+- Download and Install Verilog. Follow this [link](https://github.com/Tanvir-Mahamood/Circuit-Design/blob/main/README.md#software-installation-1)
